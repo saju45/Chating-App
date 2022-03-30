@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable-v24/circler_bg.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/backgraound_receiver.xml" value="0.14" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/background_sender.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/btn_bg.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/chat_tollbar.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/circle_bg.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/colors.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/edit_bg.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/persion.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/selectcolor.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/selectedcolor.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/drawable/signup_bg.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_add_post.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_chat.xml" value="0.22" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_edit.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_setting2.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/activity_sign_upactivity.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/chat_tollbar.xml" value="0.25" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/fragment_chat.xml" value="0.2" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/fragment_home.xml" value="0.12352941176470589" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/simple_postlayout.xml" value="0.2774566473988439" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/simple_receiver.xml" value="0.25" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/simple_sender.xml" value="0.33" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/toobar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/layout/user_rv_layout.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/saju/AndroidStudioProjects/Talklicious/app/src/main/res/menu/menu_layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#576C39"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tollbar_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:padding="5dp"
+            android:src="@drawable/saju_b"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/check"
+            app:layout_constraintBottom_toBottomOf="@id/tollbar_profile"
+            app:layout_constraintEnd_toEndOf="@id/tollbar_profile"
+            app:layout_constraintTop_toTopOf="@id/tollbar_profile"
+            app:layout_constraintVertical_bias="0.74" />
+
+
+        <TextView
+            android:id="@+id/tollbar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/baloo"
+            android:text="Shanawaj"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+
+            app:layout_constraintBottom_toBottomOf="@id/tollbar_profile"
+            app:layout_constraintStart_toEndOf="@id/tollbar_profile"
+            app:layout_constraintTop_toTopOf="@id/tollbar_profile"
+            app:layout_constraintVertical_bias="0.23000002" />
+
+        <TextView
+            android:id="@+id/tollbar_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="online"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@id/tollbar_name"
+            app:layout_constraintStart_toStartOf="@id/tollbar_name"
+            app:layout_constraintTop_toBottomOf="@id/tollbar_name" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddPostActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginEnd="10dp"
+        android:id="@+id/add_post_btn"
+        android:layout_marginStart="10dp"
+        android:text="add post"
+        app:layout_constraintTop_toTopOf="@id/profile_image"
+        app:layout_constraintBottom_toBottomOf="@id/profile_image"
+        app:layout_constraintStart_toEndOf="@id/profile_image"
+        app:layout_constraintEnd_toStartOf="@id/galleryImg"
+        app:layout_constraintEnd_toEndOf="@id/galleryImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/galleryImg"
+        android:src="@drawable/gallery"
+        app:layout_constraintTop_toTopOf="@id/add_post_btn"
+        app:layout_constraintBottom_toBottomOf="@id/add_post_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+    <EditText
+        android:hint="Write Your text "
+        android:layout_marginTop="5dp"
+        android:id="@+id/postText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        app:layout_goneMarginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"
+        android:id="@+id/post_statusImg"
+        app:layout_constraintStart_toStartOf="@id/profile_image"
+        app:layout_constraintTop_toBottomOf="@id/postText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
